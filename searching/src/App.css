@@ -1,0 +1,41 @@
+.SearchForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 15rem;
+  margin: 2rem;
+  padding: 1rem;
+  border: 0.025rem solid #474747;
+}
+
+.SearchForm > h3 {
+  margin: 0 0 0.5rem;
+}
+
+.InputGroup {
+  display: flex;
+}
+.InputGroup > .Input {
+  flex-basis: 50%;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+.Input > label {
+  margin-bottom: 0.25rem;
+}
+.Input > input[type='radio'] {
+  margin-left: 0;
+}
+
+.Error {
+  margin: 0.5rem 0 0;
+  color: crimson;
+}
+
+.SearchButton {
+  margin-top: 1rem;
+  flex-grow: 0;
+}
